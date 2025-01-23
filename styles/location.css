@@ -16,7 +16,6 @@
     max-width: 1392px;
     height: 392px;
     top: 174px;
-    left: 24px;
     background-color: #085F59;
     color: #EAEAEA;
 
@@ -44,15 +43,23 @@
     background-color: transparent;
 
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
+    box-sizing: border-box;
+}
+
+.stamp-border{
+    background-color: transparent;
+    display: block;
 }
 
 .stamp-shape1, .stamp-shape2 {
     position: relative; 
     width: 100%;
     height: 50%;
+    background-color: transparent;
+    margin: 0;
 }
 
 .stamp-shape1{
@@ -95,5 +102,88 @@
     opacity: 10%;
 }
 
-.stamp-shape2 {
+
+
+
+/*druga markica*/
+
+.stamp-shape2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 436.64px;
+    height: 592.63px;
+    gap: 0px;
+    top: -2px;
+    justify-content: center;
+}
+
+.stamp2-container{
+    position: absolute;
+    flex-direction: column;
+    width: Hug (326px)px;
+    height: 480px;
+    gap: 0px;
+    opacity: 0px;
+    
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.stamp2-adress{
+    width: 326px;
+    gap: 32px;
+
+    background-color: transparent;
+}
+
+.dotted-line{
+    background-color: transparent;
+    width: 100%;
+    height: 2px;
+    border: 2px;
+    opacity: 30%;
+    border: 2px dotted #1716154D
+}
+
+.stamp2-title-container{
+    width: Hug (308px)px;
+    height: Hug (96px)px;
+    gap: 24px;
+    opacity: 0px;
+
+    background-color: transparent;
+}
+
+.stamp2-title{
+    background-color: transparent;
+    color: #FF482F;
+    font-family: PPNeueMachina-Regular;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -2px;
+    margin-top: 0px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.stamp2-adress-content{
+    background-color: transparent;
+    font-family: NeueMontreal-Bold;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1px;
+    word-spacing: -1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #171615CC;
+    opacity: 80%;
 }
