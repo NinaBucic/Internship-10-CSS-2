@@ -1,0 +1,22 @@
+@import url('location.css');
+
+
+@import url("../assets/fonts");
+
+@font-face {
+    font-family: PPNeueMachina-Light;
+    src: url("../assets/fonts/PPNeueMachina-Light.otf");
+}
+
+@font-face {
+    font-family: PPNeueMachina-Regular;
+    src: url("../assets/fonts/PPNeueMachina-Regular.otf");
+}
+@font-face {
+    font-family: PPNeueMachina-UltraBold;
+    src: url("../assets/fonts/PPNeueMachina-Ultrabold.otf");
+}
+
+*{
+    background-color: #F5EDE1;
+}
