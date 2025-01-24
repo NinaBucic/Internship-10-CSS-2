@@ -1,4 +1,4 @@
-.silver-sponsors{
+.sponsors-container{
     width: 100%;
     height: auto;
     position: relative;
@@ -11,18 +11,23 @@
     background-color: transparent;
 }
 
-.silver-sponsor-grid{
+#silver {
+    background-color: transparent;
+    filter: grayscale(100%) brightness(90%) contrast(90%);
+}
+
+.sponsor-grid{
     display: grid;
     position: relative;
     justify-content: center;
     align-items: stretch;
-    margin-top: 200px;
+    margin-top: 350px;
     width: 95%;
     gap: 300px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.silver-sponsor-logo{
+.sponsor-logo {
     scale: 3;
     align-self: center;
     justify-self: center;
@@ -30,7 +35,7 @@
     padding: 50px;
 }
 
-.silver-sponsor-grid > .silver-sponsor-logo::after {
+.sponsor-grid > .silver-sponsor-logo::after {
     content: "";
     background-color: #1716154D;
     position: absolute;
@@ -38,9 +43,10 @@
     height: 2px;
     top: -1em;
     left: 0;
+    z-index: 1;
 }
 
-.silver-sponsor-grid > .silver-sponsor-logo::before {
+.sponsor-grid > .silver-sponsor-logo::before {
     content: "";
     background-color: #1716154D;
     position: absolute;
@@ -48,4 +54,15 @@
     height: 100%;
     top: 0;
     left: -1em;
+    z-index: 1;
+}
+
+#bronze {
+    background-color: transparent;
+    filter: sepia(100%) brightness(80%) contrast(90%) saturate(200%);
+}
+
+.container-sponsor-title {
+    font-family: PPNeueMachina-Regular;
+    font-size: 0.8vw;
 }

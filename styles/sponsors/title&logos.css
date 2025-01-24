@@ -37,7 +37,6 @@
     position: relative;
     height: auto;
     top: 7650px;
-    margin-bottom: 9500px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(12%, 1fr));
@@ -47,7 +46,7 @@
     background-color: transparent;
 }
 
-.sponsor-logo {
+.sponsor-logo-animation {
     scale: 2.5;
     height: auto;
     animation: logoFade 5s ease-in-out infinite;
@@ -62,47 +61,47 @@
     }
 }
 
-.sponsor-logo:nth-child(1) {
+.sponsor-logo-animation:nth-child(1) {
     transform: translate(200px, 100px);
     animation-delay: 2;
 }
 
-.sponsor-logo:nth-child(2) {
+.sponsor-logo-animation:nth-child(2) {
     transform: translate(700px, 250px);
     animation-delay: 7s;
 }
 
-.sponsor-logo:nth-child(3) {
+.sponsor-logo-animation:nth-child(3) {
     transform: translate(40px, 500px);
     animation-delay: 2s;
 }
 
-.sponsor-logo:nth-child(4) {
+.sponsor-logo-animation:nth-child(4) {
     transform: translate(700px, 170px);
     animation-delay: 6s;
 }
 
-.sponsor-logo:nth-child(5) {
+.sponsor-logo-animation:nth-child(5) {
     transform: translate(700px, 600px);
     animation-delay: 4s;
 }
 
-.sponsor-logo:nth-child(6) {
+.sponsor-logo-animation:nth-child(6) {
     transform: translate(-1560px, 350px);
     animation-delay: 5s;
 }
 
-.sponsor-logo:nth-child(7) {
+.sponsor-logo-animation:nth-child(7) {
     transform: translate(200px, -50px);
     animation-delay: 1s;
 }
 
-.sponsor-logo:nth-child(8) {
+.sponsor-logo-animation:nth-child(8) {
     transform: translate(-750px, 420px);
     animation-delay: 3s;
 }
 
-.sponsor-logo:nth-child(9) {
+.sponsor-logo-animation:nth-child(9) {
     transform: translate(200px, 650px);
     animation-delay: 8s;
 }
