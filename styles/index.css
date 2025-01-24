@@ -8,6 +8,7 @@
 
 /*sponsors*/
 @import url('/styles/sponsors/title&logos.css');
+@import url('/styles/sponsors/sponsor.css');
 
 @import url("../assets/fonts/NeueMachina/");
 @import url("../assets/fonts/NeueMontreal/");
