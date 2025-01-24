@@ -1,0 +1,11 @@
+.golden-sponsors{
+    width: 100%;
+    position: relative;
+    top: 16257px;
+    gap: 160px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
