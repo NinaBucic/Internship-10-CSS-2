@@ -2,7 +2,6 @@
     display: flex;
     background-color: transparent;
     width: 100%;
-    margin-left: 50px;
     height: auto;
     margin-top: 50px;
     justify-content: space-between;
@@ -11,8 +10,8 @@
 
 .center-location-paragraph{
     width: 60%;
-    margin-left: 420px;
     margin-right: 100px;
+    padding-right: 100px;
     margin-top: 20px;
     gap: 24px;
     color: #FFFFFFB2;
