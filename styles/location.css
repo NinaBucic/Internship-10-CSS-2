@@ -47,6 +47,8 @@
     justify-content: flex-start;
     align-items: center;
     box-sizing: border-box;
+
+    z-index: 1;
 }
 
 .stamp-border{
@@ -186,4 +188,39 @@
     text-decoration-skip-ink: none;
     color: #171615CC;
     opacity: 80%;
+}
+
+
+/*house object*/
+
+.object-house{
+    position: relative;
+    width: 1439px;
+    height: 945.16px;
+    left: 1px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.house-image, .house-mask{
+    position: absolute;
+    width: 1439px;
+    height: 945.16px;
+    margin-top: 80px;
+}
+
+.house-image{
+    width: 100%;
+    height: 100%;
+    top: 30%;
+    opacity: 0.5;
+}
+
+.house-mask {
+    width: 100%;
+    height: 100%;
+    z-index: 2; 
+    background-color: transparent;
 }
