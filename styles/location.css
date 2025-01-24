@@ -11,12 +11,11 @@
     align-items: center;
 }
 
-
 .location-title-container{
     max-width: 1392px;
     height: 392px;
     top: 174px;
-    background-color: #085F59;
+    background-color: transparent;
     color: #EAEAEA;
 
     position: relative;
@@ -31,14 +30,14 @@
     font-size: 284.57px;
     line-height: 341.49px;
     initial-letter-align: -11.92px;
-    background-color: #085F59;
+    background-color: transparent;
 }
 
 .stamp{
     position: relative;
     width: 436.85px;
     height: 1184.55px;
-    top: 651.82px;
+    top: 400.82px;
 
     background-color: transparent;
 
@@ -198,8 +197,6 @@
     width: 1439px;
     height: 945.16px;
     left: 1px;
-    gap: 0px;
-    opacity: 0px;
     background-color: transparent;
     overflow: hidden;
 }
@@ -208,14 +205,14 @@
     position: absolute;
     width: 1439px;
     height: 945.16px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .house-image{
     width: 100%;
     height: 100%;
     top: 30%;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .house-mask {
@@ -223,4 +220,97 @@
     height: 100%;
     z-index: 2; 
     background-color: transparent;
+}
+
+.object-house-divider{
+    position: relative;
+    top: -10px;
+}
+
+
+/*center paragraph*/
+
+.location-text-container{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    align-items: first baseline;
+    padding: 20px;
+}
+
+.center-location-paragraph{
+    width: Hug (621px)px;
+    height: Hug (96px)px;
+    margin-top: 20px;
+    margin-left: 320px;
+    left: 480px;
+    gap: 24px;
+    color: #FFFFFFB2;
+
+    background-color: #075f59;
+    display: flex;
+    order: 2;
+}
+
+.center-paragraph-content{
+    width: 544px;
+    height: 96px;
+    font-family: PPNeueMachina-Regular;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background-color: transparent;
+    margin: 0;
+}
+
+.fesb-group{
+    width: 53px;
+    height: 24px;
+    background-color: transparent;
+}
+
+.gallery-room{
+    width: 159px;
+    height: 16px;
+    top: 2273px;
+    left: 75px;
+    gap: 0px;
+    opacity: 0px;
+    order: 1;
+
+    font-family: NeueMontreal-Regular;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1px;
+    
+    background-color: #075f59;
+    color: #FFFFFFB2;
+}
+
+.visual-date-container{
+    width: 1405px;
+    height: 488px;
+    left: 32px;
+    background-color: transparent;
+    position: relative;
+}
+
+.visual-date{
+    font-family: PPNeueMachina-Regular;
+    font-size: 268.26px;
+    font-weight: 600;
+    line-height: 262.26px;
+    letter-spacing: 5.245291709899902px;
+    text-align: center;
+    margin-top: 50px;
+
+    background-color: transparent;
+    color: #FFFFFF;
+    opacity: 0.2;
+
 }
