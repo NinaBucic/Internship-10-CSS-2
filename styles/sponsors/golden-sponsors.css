@@ -1,0 +1,166 @@
+.golden-sponsors{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsor-medal{
+    position: relative;
+    background-color: transparent;
+    width: 0.6vw;
+    border-radius: 3.62px 0px 0px 0px;
+    opacity: 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.golden-backround{
+    position: absolute;
+    scale: 0.8;
+    top: -200px;
+    opacity: 80%;
+}
+
+.DUMP-logo{
+    position: absolute;
+    scale: 6.2;
+    top:  205px;
+    margin-left: 50px;
+    background-color: transparent;
+}
+
+.golden-sponsor-title {
+    font-size: 3vw;
+    background-color: transparent;
+    margin-top: 700px;
+    display: flex;
+    text-align: center;
+
+    font-family: NeueMontreal-Regular;
+    font-size: 1.5vw;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1px;
+    color: #17161599;
+
+    white-space: nowrap;
+}
+
+.golden-sponsors-container{
+    position: relative;
+    margin-top: 500px;
+    display: grid;
+    gap: 100px;
+    width: 95%;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.golden-sponsor-frame{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-frame {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-frame-frame {
+    width: 100%;
+    height: 92%;
+    position: absolute;
+    background-color: transparent;
+    rotate: 270deg;
+    scale: 9.6;
+    top: -10px;
+    object-fit: contain;
+}
+
+.photo-frame-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    scale: 1;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.photo-frame-title {
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.open-positions {
+    background-color: transparent;
+}
+
+.underframe-title {
+    margin-top: 500px;
+    font-size: 1.9vw;
+    color: #171615;
+    font-family: PPNeueMachina-Regular;
+}
+
+.dotted-line-sponsors {
+    background-color: transparent;
+    width: 100%;
+    margin-top: 70px;
+    height: 2px;
+    border: 2px;
+    opacity: 100%;
+    border-top: 10px dotted #1716154D
+}
+
+.open-positions-container {
+    width: 100%;
+    font-size: 0.8vw;
+    margin-top: 90px;
+    display: flex;
+    letter-spacing: 5px;
+    color: #17161599;
+    font-family: PPNeueMachina-Regular;
+    justify-content: space-between;
+}
+
+.elipse {
+    width: 100px;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.elipse-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.elipse-number {
+    background-color: transparent;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 2;
+}
