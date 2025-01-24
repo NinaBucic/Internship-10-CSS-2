@@ -1,13 +1,16 @@
-@import url('location.css');
+@import url('/styles/location/house.css');
+@import url('/styles/location/location-text.css');
+@import url('/styles/location/location.css');
+@import url('/styles/location/stamp.css');
 
 
 @import url("../assets/fonts/NeueMachina/");
 @import url("../assets/fonts/NeueMontreal/");
 
-@font-face {
+/* @font-face {
     font-family: PPNeueMachina-Light;
     src: url("../assets/fonts/NeueMachina/PPNeueMachina-Light.otf");
-}
+} */
 @font-face {
     font-family: PPNeueMachina-Regular;
     src: url("../assets/fonts/NeueMachina/PPNeueMachina-Regular.otf");
@@ -16,7 +19,7 @@
     font-family: PPNeueMachina-UltraBold;
     src: url("../assets/fonts/NeueMachina/PPNeueMachina-Ultrabold.otf");
 }
-
+/* 
 @font-face {
     font-family: NeueMontreal-Light;
     src: url("../assets/fonts/NeueMontreal/NeueMontreal-Light.otf");
@@ -24,7 +27,7 @@
 @font-face {
     font-family: NeueMontreal-Medium;
     src: url("../assets/fonts/NeueMontreal/NeueMontreal-Medium.otf");
-}
+} */
 @font-face {
     font-family: NeueMontreal-Regular;
     src: url("../assets/fonts/NeueMontreal/NeueMontreal-Regular.otf");
@@ -43,7 +46,7 @@
 }
 
 .noise{
-    max-width: 1440px;
+    width: 100%;
     height: 200%;
     position: fixed;
     background-color: transparent;
@@ -60,7 +63,7 @@ body{
 
 .section-divider {
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 45px;
     background-color: transparent;
     overflow: hidden;

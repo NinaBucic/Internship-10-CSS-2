@@ -1,0 +1,55 @@
+.location-text-container{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    margin-left: 50px;
+    height: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.center-location-paragraph{
+    width: 60%;
+    margin-left: 420px;
+    margin-right: 100px;
+    margin-top: 20px;
+    gap: 24px;
+    color: #FFFFFFB2;
+
+    background-color: #075f59;
+    display: flex;
+    order: 2;
+}
+
+.center-paragraph-content{
+    font-family: PPNeueMachina-Regular;
+    font-size: 2.3vh;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -1px;
+    background-color: transparent;
+    margin: 0;
+}
+
+.fesb-group{
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+.gallery-room{
+    margin-top: 20px;
+    width: 40%;
+    order: 1;
+
+    font-family: NeueMontreal-Regular;
+    font-size: 1.8vh;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    
+    background-color: #075f59;
+    color: #FFFFFFB2;
+}

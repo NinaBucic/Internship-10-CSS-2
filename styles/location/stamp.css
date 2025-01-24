@@ -1,0 +1,148 @@
+.stamp{
+    position: relative;
+    width: 40%;
+    top: 1500.82px;
+
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+
+    z-index: 1;
+}
+
+.stamp-border{
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    min-height: 40vh;
+}
+
+.stamp-shape1, .stamp-shape2 {
+    position: relative; 
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    margin: 0;
+}
+
+.stamp-shape1{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vintage_picture{
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    background: #0243431A;
+    background-blend-mode: color;
+    opacity: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.vintage_image {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.image1 {
+    z-index: 1;
+}
+
+.image2 {
+    z-index: 2; 
+    width: 100%;
+    height: 100%;
+    opacity: 10%;
+}
+
+
+.stamp-shape2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    top: -10px;
+    justify-content: center;
+}
+
+.stamp2-container{
+    position: absolute;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.stamp2-adress{
+    width: 100%;
+    gap: 32px;
+
+    background-color: transparent;
+}
+
+.dotted-line{
+    background-color: transparent;
+    width: 100%;
+    height: 2px;
+    border: 2px;
+    margin-bottom: 100px;
+    opacity: 100%;
+    border-top: 20px dotted #1716154D
+}
+
+.stamp2-title-container{
+    width: Hug (308px)px;
+    height: Hug (96px)px;
+    opacity: 0px;
+
+    background-color: transparent;
+}
+
+.stamp2-title{
+    background-color: transparent;
+    color: #FF482F;
+    font-family: PPNeueMachina-Regular;
+    font-size: 4vw;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 20px;
+    margin-top: 0px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.stamp2-adress-content{
+    background-color: transparent;
+    font-family: NeueMontreal-Bold;
+    font-size: 1.5vw;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 1px;
+    word-spacing: -1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #171615CC;
+    opacity: 80%;
+}
