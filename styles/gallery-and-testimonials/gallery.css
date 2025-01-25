@@ -1,0 +1,63 @@
+.gallery-and-testimonials{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-bottom: 1000px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.gallery-backround, .gallery-arrow, .throwback, .gallery-title,.rewind-filter {
+    background-color: transparent;
+}
+
+.gallery-backround{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.backround-people{
+    position: absolute;
+    transform: translateY(-10%);
+    width: 100%;
+}
+
+.rewind-filter{
+    opacity: 30%;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-arrow {
+    position: absolute;
+    z-index: 2;
+}
+
+.gallery-title {
+    position: absolute;
+    font-family: PPNeueMachina-Regular;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30rem;
+    color: white;
+    z-index: 2;
+}
+
+.throwback {
+    position: absolute;
+    font-family: NeueMontreal-Regular;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    color: white;
+    z-index: 2;
+}
