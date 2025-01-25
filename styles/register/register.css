@@ -3,6 +3,7 @@
     height: auto;
     padding-bottom: 500px;
     padding-top: 500px;
+    margin: 0;
     background: black;
     display: flex;
     position: relative;
@@ -12,6 +13,10 @@
     text-align: center;
     color: white;
     overflow: hidden;
+}
+
+#black{
+    top: 10px;
 }
 
 .register-container .noise {

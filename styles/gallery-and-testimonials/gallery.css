@@ -2,7 +2,6 @@
     width: 100%;
     height: auto;
     background-color: black;
-    padding-bottom: 1000px;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -18,7 +17,7 @@
 
 .gallery-backround{
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -27,6 +26,7 @@
     position: absolute;
     transform: translateY(-10%);
     width: 100%;
+    object-fit: cover;
 }
 
 .rewind-filter{
@@ -46,7 +46,7 @@
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 30rem;
+    font-size: 30em;
     color: white;
     z-index: 2;
 }

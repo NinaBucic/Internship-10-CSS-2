@@ -16,6 +16,7 @@
 
 /*gallery and testomials*/
 @import url('/styles/gallery-and-testimonials/gallery.css');
+@import url('/styles/gallery-and-testimonials/testimonials.css');
 
 
 
@@ -86,8 +87,7 @@ body{
 }
 
 .divider-image,
-.divider-noise,
-.divider-color {
+.divider-noise {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -98,29 +98,5 @@ body{
 .divider-image {
     z-index: 1;
     opacity: 1;
-    transform: rotate(180deg);
     transform-origin: center;
-}
-
-.divider-noise {
-    z-index: 2;
-    opacity: 20%;
-}
-
-.divider-color {
-    position: absolute;
-    z-index: 3;
-    mix-blend-mode: overlay; 
-}
-
-.green-divider{
-    background-color: #075f59 !important;
-}
-
-.white-divider{
-    background-color: #F5EDE1;
-}
-
-.black-divider{
-    background: #171615 !important;
 }
