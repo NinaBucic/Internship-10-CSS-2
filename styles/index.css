@@ -71,9 +71,7 @@ body{
     background-color: transparent;
 }
 
-.divider-image,
-.divider-noise,
-.divider-color {
+.divider-image {
     position: absolute;
     width: 100%;
     height: 100%;
