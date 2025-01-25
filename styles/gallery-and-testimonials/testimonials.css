@@ -32,14 +32,14 @@
 .testimonial2 {
     top: 600px;
     z-index: 3;
-    background-color: black;
+    background-color: #171615;
+    ;
 }
 
 #testimonial2-divider {
     position: absolute;
     z-index: 10;
     top: 650px;
-    transform: rotate(-1deg);
 }
 
 #testimonial3-divider {
