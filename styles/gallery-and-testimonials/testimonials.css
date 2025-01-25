@@ -1,17 +1,72 @@
-.testimonial1 {
+.testimonial-container {
+    position: relative;
     width: 100%;
-    z-index: 3;
-    margin-bottom: 1000px;
+    height: auto;
     display: flex;
-    padding: 200px;
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.testimonial1, .testimonial2, .testimonial3 {
+    position: absolute;
+    display: flex;
+    padding: 300px;
     justify-content: flex-start;
     flex-direction: row;
-    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.testimonial1 {
+    top: 0; 
+    z-index: 0;
+    background-color: white;
+}
+
+#testimonial1-divider {
     position: relative;
-    transform: translate(-50%, -50%); /* Centriranje sadržaja */
-    color: black;
-    top: 50%; 
-    left: 50%;
+    z-index: 10;
+    top: -200px;
+}
+
+.testimonial2 {
+    top: 600px;
+    z-index: 3;
+    background-color: black;
+}
+
+#testimonial2-divider {
+    position: absolute;
+    z-index: 10;
+    top: 650px;
+    transform: rotate(-1deg);
+}
+
+#testimonial3-divider {
+    position: absolute;
+    z-index: 10;
+    top: 1270px;
+    transform: rotate(1deg);
+}
+
+.testimonial3 {
+    top: 1500px;
+    z-index: 5;
+    background-color: #F5EDE1;
+}
+
+#testimonial2-text-color {
+    color: #FFFFFFB2;
+    background-color: transparent;
+}
+
+.testimonial2 {
+    top: 800px;
+    z-index: 4;
+}
+
+.apostrof, .author, .author-container, .testimonial-author-container, .testimonial-comment-container, .comment {
+    background-color: transparent;
 }
 
 .testimonial-author-container {
@@ -22,6 +77,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: auto;
+    background-color: transparent;
 }
 
 .author-container {
@@ -30,16 +86,32 @@
 
 .author {
     font-size: 6rem;
-    color: black;
+    color: #17161599;
     text-align: left;
     font-family: NeueMontreal-Regular;
+    font-weight: 600;
+}
+
+#role {
+    position: relative;
+    top: 50px;
 }
 
 .testimonial-comment-container {
     font-size: 6rem;
-    max-width: 50%;
+    max-width: 70%;
     margin-left: 500px;
+    padding-left: 5%;
+    text-align: left;
+    color: #171615B2;
     font-family: PPNeueMachina-Regular;
+    font-weight: 700;
+    border-left: 30px dotted #1716154D;
+}
+
+.testimonial-comment-container::before {
+    content: '';
+    display: block;
 }
 
 .apostrof {

@@ -15,11 +15,17 @@
     background-color: transparent;
 }
 
-.gallery-backround{
+.gallery-backround {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     position: relative;
     overflow: hidden;
+}
+
+#gallery-section-divider {
+    position: absolute;
+    left: -50%;
+    top: 95%;
 }
 
 .backround-people{
@@ -37,13 +43,16 @@
 
 .gallery-arrow {
     position: absolute;
-    z-index: 2;
+    top: 300px;
+    right: 400px;
+    z-index: 10;
+    scale: 5;
 }
 
 .gallery-title {
     position: absolute;
     font-family: PPNeueMachina-Regular;
-    top: 45%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30em;
@@ -54,7 +63,7 @@
 .throwback {
     position: absolute;
     font-family: NeueMontreal-Regular;
-    top: 60%;
+    top: 80%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 3em;
