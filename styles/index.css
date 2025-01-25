@@ -1,0 +1,43 @@
+@import url('header.css');
+
+@font-face {
+    font-family: PPNeueMachina-Light;
+    src: url("../assets/fonts/NeueMachina/PPNeueMachina-Light.otf") format("truetype");
+}
+@font-face {
+    font-family: PPNeueMachina-Regular;
+    src: url("../assets/fonts/NeueMachina/PPNeueMachina-Regular.otf") format("truetype");
+}
+@font-face {
+    font-family: PPNeueMachina-UltraBold;
+    src: url("../assets/fonts/NeueMachina/PPNeueMachina-Ultrabold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: NeueMontreal-Light;
+    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Light.otf") format("truetype");
+}
+@font-face {
+    font-family: NeueMontreal-Medium;
+    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Medium.otf") format("truetype");
+}
+@font-face {
+    font-family: NeueMontreal-Regular;
+    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Regular.otf") format("truetype");
+}
+@font-face {
+    font-family: NeueMontreal-Bold;
+    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Bold.otf") format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-color: #F5EDE1;
+}
+
