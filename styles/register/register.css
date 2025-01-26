@@ -1,0 +1,62 @@
+.register-container{
+    width: 100%;
+    height: auto;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    top: -20px;
+    background: black;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+#register-noise {
+    position: absolute;
+    scale: 2;
+    top: 50%;
+    opacity: 5%;
+}
+
+.register-pretitle, .register-title, .days-mockup-image, .login-in-apk {
+    background-color: transparent;
+    position: relative;
+}
+
+.register-pretitle{
+    font-family: PPNeueMachina-Regular;
+    font-size: 1vw;
+    color: #FFFFFFB2;
+}
+
+.register-title{
+    font-family: PPNeueMachina-Regular;
+    font-size: 7vw;
+    color: #EAEAEA;
+    position: relative;
+    z-index: 1;
+}
+
+.days-mockup-image{
+    background: none;
+    width: 100%;
+    max-width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+    object-fit: contain;
+    top: 300px;
+}
+
+.login-in-apk {
+    position: relative;
+    font-family: NeueMontreal-Regular;
+    font-size: 0.8em;
+    margin-top: 63%;
+    letter-spacing: 10px;
+}
