@@ -61,7 +61,7 @@
     gap: 30px;
     width: 95%;
     height: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .golden-sponsor-frame{
