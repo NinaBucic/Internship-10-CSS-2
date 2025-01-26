@@ -1,0 +1,131 @@
+header {
+  position: relative;
+  overflow: hidden;
+  margin: 32px;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-image: url("../assets/images/header/Hero\ background.jpg");
+  background-size: cover;
+
+  font-family: NeueMontreal-Medium, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.top-bar {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  width: calc(100% - 2 * 32px);
+  top: 32px;
+  left: 32px;
+  padding: 24px;
+
+  z-index: 100;
+}
+
+.top-bar :nth-child(2) {
+  text-align: center;
+}
+
+.top-bar button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background: #eaeaea;
+  font-family: NeueMontreal-Medium, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu {
+  position: absolute;
+  width: 100%;
+  padding: 24px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  z-index: 99;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.scroll-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  animation: scroll-loop 40s linear infinite;
+  white-space: nowrap;
+  position: relative;
+  height: 75vh;
+}
+
+.role-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.role-image h1 {
+  z-index: 2;
+  font-size: 120px;
+  line-height: 144px;
+  letter-spacing: -5.024630546569824px;
+  text-align: center;
+  position: relative;
+}
+
+.role-image img {
+  position: absolute;
+
+  z-index: 1;
+  height: 75vh;
+  object-fit: cover;
+}
+
+.days-sticker {
+  width: 118.38px;
+  height: 142.75px;
+}
+
+@keyframes scroll-loop {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
