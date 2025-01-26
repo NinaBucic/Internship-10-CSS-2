@@ -1,6 +1,6 @@
 .location-section{
     width: 100%;
-    background-color: #075f59;
+    background-color: #04544c;
     margin: 0;
 
     position: relative;
@@ -8,11 +8,12 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
 }
 
 .location-title-container{
     width: 100%;
-    top: 550px;
+    top: 100px;
     background-color: transparent;
     color: #EAEAEA;
 
@@ -45,7 +46,7 @@
 
 .visual-date{
     font-family: PPNeueMachina-Regular;
-    font-size: 15vw;
+    font-size: 13vw;
     font-weight: 600;
     line-height: 1;
     letter-spacing: 70px;
