@@ -1,5 +1,11 @@
 @import url('header.css');
 
+/*location*/
+@import url('location/location.css');
+@import url('location/stamp.css');
+@import url('location/location-text.css');
+@import url('location/house.css');
+
 @font-face {
     font-family: PPNeueMachina-Light;
     src: url("../assets/fonts/NeueMachina/PPNeueMachina-Light.otf") format("truetype");
@@ -41,3 +47,23 @@ body{
     background-color: #F5EDE1;
 }
 
+.section-divider {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+}
+
+.divider-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: transparent;
+}
+
+.divider-image {
+    z-index: 1;
+    opacity: 1;
+    transform-origin: center;
+}
