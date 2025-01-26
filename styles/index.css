@@ -1,10 +1,10 @@
-
+@import url('header.css');
 
 /*location*/
-@import url('/styles/location/house.css');
-@import url('/styles/location/location-text.css');
-@import url('/styles/location/location.css');
-@import url('/styles/location/stamp.css');
+@import url('location/location.css');
+@import url('location/stamp.css');
+@import url('location/location-text.css');
+@import url('location/house.css');
 
 /*sponsors*/
 @import url('/styles/sponsors/title&logos.css');
@@ -18,47 +18,45 @@
 @import url('/styles/gallery-and-testimonials/gallery.css');
 @import url('/styles/gallery-and-testimonials/testimonials.css');
 
-
-
-@import url("../assets/fonts/NeueMachina/");
-@import url("../assets/fonts/NeueMontreal/");
-
-/* @font-face {
+@font-face {
     font-family: PPNeueMachina-Light;
-    src: url("../assets/fonts/NeueMachina/PPNeueMachina-Light.otf");
-} */
+    src: url("../assets/fonts/NeueMachina/PPNeueMachina-Light.otf") format("truetype");
+}
 @font-face {
     font-family: PPNeueMachina-Regular;
-    src: url("../assets/fonts/NeueMachina/PPNeueMachina-Regular.otf");
+    src: url("../assets/fonts/NeueMachina/PPNeueMachina-Regular.otf") format("truetype");
 }
 @font-face {
     font-family: PPNeueMachina-UltraBold;
-    src: url("../assets/fonts/NeueMachina/PPNeueMachina-Ultrabold.otf");
+    src: url("../assets/fonts/NeueMachina/PPNeueMachina-Ultrabold.otf") format("truetype");
 }
-/* 
+
 @font-face {
     font-family: NeueMontreal-Light;
-    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Light.otf");
+    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Light.otf") format("truetype");
 }
 @font-face {
     font-family: NeueMontreal-Medium;
-    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Medium.otf");
-} */
+    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Medium.otf") format("truetype");
+}
 @font-face {
     font-family: NeueMontreal-Regular;
-    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Regular.otf");
+    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Regular.otf") format("truetype");
 }
 @font-face {
     font-family: NeueMontreal-Bold;
-    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Bold.otf");
+    src: url("../assets/fonts/NeueMontreal/NeueMontreal-Bold.otf") format("truetype");
 }
 
 *{
     margin: 0;
     padding: 0;
-    background-color: #F5EDE1;
     box-sizing: border-box;
-    z-index: -2;
+}
+
+body{
+    position: relative;
+    background-color: #F5EDE1;
 }
 
 .noise{
@@ -66,16 +64,8 @@
     height: 200%;
     position: absolute;
     background-color: transparent;
-    opacity: 10%;
-    z-index: -2;
+    opacity: 14%;
 }
-
-body{
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-
 
 .section-divider {
     position: relative;
