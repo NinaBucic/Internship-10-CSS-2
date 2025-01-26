@@ -90,9 +90,11 @@
 }
 
 .organisation-partners {
+    margin-top: -700px;
     bottom: -200px;
 }
 
 .last {
-    margin-bottom: 100px;
+    margin-bottom: -700px;
+    margin-top: 90px;
 }
