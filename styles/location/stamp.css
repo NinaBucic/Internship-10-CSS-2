@@ -1,7 +1,7 @@
 .stamp{
     position: relative;
     width: 40%;
-    top: 1500.82px;
+    top: 400.82px;
 
     background-color: transparent;
 
@@ -11,7 +11,7 @@
     align-items: center;
     box-sizing: border-box;
 
-    z-index: 2;
+    z-index: 3;
 }
 
 .stamp-border{
@@ -76,7 +76,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    top: -15px;
+    top: -5px;
     justify-content: center;
 }
 
@@ -107,12 +107,12 @@
     border: 2px;
     margin-bottom: 100px;
     opacity: 100%;
-    border-top: 20px dotted #1716154D
+    border-top: 10px dotted #1716154D;
 }
 
 .stamp2-title-container{
-    width: Hug (308px)px;
-    height: Hug (96px)px;
+    width: 100%;
+    height: auto;
     opacity: 0px;
 
     background-color: transparent;
@@ -121,11 +121,11 @@
 .stamp2-title{
     background-color: transparent;
     color: #FF482F;
-    font-family: PPNeueMachina-Regular;
-    font-size: 4vw;
-    font-weight: 600;
+    font-family: PPNeueMachina-Ultrabold;
+    font-size: 3vw;
+    font-weight: 300;
     line-height: 1.4;
-    letter-spacing: 20px;
+    letter-spacing: 10px;
     margin-top: 0px;
     text-align: left;
     text-underline-position: from-font;

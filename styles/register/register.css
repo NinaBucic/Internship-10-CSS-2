@@ -1,8 +1,9 @@
 .register-container{
     width: 100%;
     height: auto;
-    padding-bottom: 500px;
-    padding-top: 500px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    top: -20px;
     background: black;
     display: flex;
     position: relative;
@@ -14,18 +15,12 @@
     overflow: hidden;
 }
 
-.register-container .noise {
+#register-noise {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200%;
-    background-image: url("../assets/images/other/noise.png");
-    background-repeat: repeat-y;
-    background-size: cover;
-    opacity: 0.1;
-    z-index: -2;
-} 
+    scale: 2;
+    top: 50%;
+    opacity: 5%;
+}
 
 .register-pretitle, .register-title, .days-mockup-image, .login-in-apk {
     background-color: transparent;
@@ -35,6 +30,7 @@
 .register-pretitle{
     font-family: PPNeueMachina-Regular;
     font-size: 1vw;
+    color: #FFFFFFB2;
 }
 
 .register-title{
@@ -54,13 +50,13 @@
     position: absolute;
     z-index: 2;
     object-fit: contain;
-    top: 780px;
+    top: 300px;
 }
 
 .login-in-apk {
     position: relative;
     font-family: NeueMontreal-Regular;
-    font-size: 3em;
-    margin-top: 60%;
-    letter-spacing: 20px;
+    font-size: 0.8em;
+    margin-top: 63%;
+    letter-spacing: 10px;
 }

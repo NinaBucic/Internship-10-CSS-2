@@ -1,6 +1,6 @@
 .motivation-section {
     position: relative;
-    top: 7400px;
+    top: -80px;
     width: 100%;
     height: auto;
     margin: 0;
@@ -12,23 +12,23 @@
 }
 
 .motivation-pretitle {
-    padding-top: 400px;
+    padding-top: 200px;
     font-family: NeueMontreal-Regular;
-    font-size: 4rem;
+    font-size: 1em;
     font-weight: 500;
     line-height: 1.5;
     color: #17161599;
 }
 
 .motivation-title-container {
-    width: 2535px;
+    width: 60%;
     height: 144px;
 }
 
 .motivation-title {
     margin-top: 20px;
     font-family: PPNeueMachina-Ultrabold;
-    font-size: 9rem;
+    font-size: 3em;
     font-weight: 500;
     text-align: center;
     color: #FF482F;
@@ -37,8 +37,7 @@
 .sponsor-logo-section {
     position: relative;
     height: auto;
-    top: 7650px;
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(12%, 1fr));
     gap: 20px;
@@ -48,9 +47,9 @@
 }
 
 .sponsor-logo-animation {
-    scale: 2.5;
+    scale: 0.8;
     height: auto;
-    animation: logoFade 5s ease-in-out infinite;
+    animation: logoFade 4s ease-in-out infinite;
 }
 
 @keyframes logoFade {
@@ -63,37 +62,37 @@
 }
 
 .sponsor-logo-animation:nth-child(1) {
-    transform: translate(200px, 100px);
+    transform: translate(150px, -30px);
     animation-delay: 2;
 }
 
 .sponsor-logo-animation:nth-child(2) {
-    transform: translate(700px, 250px);
+    transform: translate(550px, 250px);
     animation-delay: 7s;
 }
 
 .sponsor-logo-animation:nth-child(3) {
-    transform: translate(40px, 500px);
+    transform: translate(-30px, 500px);
     animation-delay: 2s;
 }
 
 .sponsor-logo-animation:nth-child(4) {
-    transform: translate(700px, 170px);
+    transform: translate(450px, 170px);
     animation-delay: 6s;
 }
 
 .sponsor-logo-animation:nth-child(5) {
-    transform: translate(700px, 600px);
+    transform: translate(400px, 600px);
     animation-delay: 4s;
 }
 
 .sponsor-logo-animation:nth-child(6) {
-    transform: translate(-1560px, 350px);
+    transform: translate(-1350px, 350px);
     animation-delay: 5s;
 }
 
 .sponsor-logo-animation:nth-child(7) {
-    transform: translate(200px, -50px);
+    transform: translate(-30px, -80px);
     animation-delay: 1s;
 }
 
@@ -103,6 +102,6 @@
 }
 
 .sponsor-logo-animation:nth-child(9) {
-    transform: translate(200px, 650px);
+    transform: translate(-50px, 650px);
     animation-delay: 8s;
 }
