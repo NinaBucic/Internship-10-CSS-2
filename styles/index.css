@@ -18,6 +18,9 @@
 @import url('/styles/gallery-and-testimonials/gallery.css');
 @import url('/styles/gallery-and-testimonials/testimonials.css');
 
+/*faq*/
+@import url(faq.css);
+
 @font-face {
     font-family: PPNeueMachina-Light;
     src: url("../assets/fonts/NeueMachina/PPNeueMachina-Light.otf") format("truetype");
