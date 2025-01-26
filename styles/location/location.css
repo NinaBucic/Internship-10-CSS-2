@@ -1,0 +1,63 @@
+.location-section{
+    width: 100%;
+    background-color: #04544c;
+    margin: 0;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+.location-title-container{
+    width: 100%;
+    top: 100px;
+    background-color: transparent;
+    color: #EAEAEA;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-title{
+    width: 100%;
+    font-family: PPNeueMachina-Regular;
+    font-weight: 500;
+    font-size: 20vw;
+    line-height: 341.49px;
+    initial-letter-align: -11.92px;
+    background-color: transparent;
+    text-align: center;
+}
+
+
+.visual-date-container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.visual-date{
+    font-family: PPNeueMachina-Regular;
+    font-size: 13vw;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 70px;
+    text-align: center;
+    margin-top: 50px;
+
+    position: relative;
+    width: 100%;
+
+    background-color: transparent;
+    color: #FFFFFF;
+    opacity: 0.2;
+
+}

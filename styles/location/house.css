@@ -1,0 +1,35 @@
+.object-house{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    left: 1px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.house-image, .house-mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.house-image{
+    width: 100%;
+    height: 100%;
+    top: 30%;
+    opacity: 0.3;
+}
+
+.house-mask {
+    width: 100%;
+    height: 100%;
+    z-index: 2; 
+    background-color: transparent;
+}
+
+.object-house-divider{
+    position: relative;
+    top: -20px;
+    z-index: 4;
+}

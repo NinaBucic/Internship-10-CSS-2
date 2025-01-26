@@ -1,0 +1,64 @@
+.location-text-container{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    margin: 50px;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative;
+}
+
+.location-text-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: calc(100% - 100px); 
+    border-bottom: 5px dotted #FFFFFF4D;
+}
+
+.center-location-paragraph{
+    width: 100%;
+    padding-right: 100px;
+    gap: 24px;
+    color: #FFFFFFB2;
+
+    background-color: transparent;
+    display: flex;
+    order: 2;
+}
+
+.center-paragraph-content{
+    font-family: PPNeueMachina-Regular;
+    font-size: 1.7vw;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -1px;
+    background-color: transparent;
+    margin: 0;
+}
+
+.fesb-group{
+    width: 80px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+.gallery-room{
+    margin-top: 20px;
+    width: 40%;
+    order: 1;
+
+    font-family: NeueMontreal-Regular;
+    font-size: 1.8vh;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    
+    background-color: transparent;
+    color: #FFFFFFB2;
+}
