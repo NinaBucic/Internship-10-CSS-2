@@ -46,6 +46,7 @@
 body{
     position: relative;
     background-color: #F5EDE1;
+    overflow-x: hidden;
 }
 
 .noise{
