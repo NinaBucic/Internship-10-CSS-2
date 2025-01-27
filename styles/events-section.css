@@ -1,0 +1,45 @@
+.events-gallery {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+  padding: 32px;
+  margin: 50px 0;
+  overflow: hidden;
+}
+
+.events-gallery img {
+  width: 320px;
+  height: 400px;
+}
+
+@media screen and (max-width: 1024px) {
+  .events-gallery {
+    gap: 16px;
+    padding: 16px;
+    flex-wrap: wrap;
+  }
+
+  .events-gallery img {
+    width: 163px;
+    height: 205px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .events-gallery {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .events-gallery img {
+    width: 100px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .events-gallery {
+      gap: 30px;
+    }
+}

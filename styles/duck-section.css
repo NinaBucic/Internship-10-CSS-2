@@ -156,6 +156,23 @@
   }
 }
 
+@media screen and (min-width:565px) and (max-width:767px){
+  .stats {
+    width: 65%;
+  }
+
+  .duck-area {
+    position: absolute;
+    width: 347px;
+    height: 423px;
+    transform: rotate(11deg);
+    margin-top: 0;
+    top: 450px;
+    left: 150px;
+  }
+  
+}
+
 @media screen and (max-width: 374px){
     .stats {
         column-gap: 30px;
