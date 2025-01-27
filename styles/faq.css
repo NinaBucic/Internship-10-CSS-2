@@ -5,7 +5,12 @@
     background-color: black;
     color: #FFFFFFB2;
     width: 100%;
+    top: -100px;
     align-items: center;
+}
+
+#faq-divider {
+    margin-bottom: 70px;
 }
 
 .faq-title-container {
