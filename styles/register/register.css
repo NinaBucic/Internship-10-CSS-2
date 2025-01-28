@@ -60,3 +60,25 @@
     margin-top: 63%;
     letter-spacing: 10px;
 }
+
+
+@media (max-width: 767px) {
+    .days-mockup-image {
+        scale: 1.2;
+        top: 290px;
+    }
+
+    .login-in-apk {
+        top: 50px;
+        font-size: 0.7em;
+        letter-spacing: 7px;
+    }
+
+    .register-pretitle {
+        font-size: 1em;
+    }
+
+    .register-title {
+        font-size: 3.5em;
+    }
+}

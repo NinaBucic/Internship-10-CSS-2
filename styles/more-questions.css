@@ -1,0 +1,154 @@
+.more-questions-section {
+    width: 100%;
+    margin-top: -2px;
+    margin-bottom: -10px;
+    height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 50px 0; 
+    color: #EAEAEA;
+    background-color: black;
+    overflow: hidden;
+}
+
+#more-noise {
+    top: 0px;
+    height: 300%;
+}
+
+.copyright {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFFB2;
+}
+.txt-container {
+    width: 95%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: PPNeueMachina-Regular;
+    border-top: 5px dotted #FFFFFF33;
+}
+
+.dumpdays {
+    margin-left: 20px;
+}
+
+
+
+#more-questions-divider {
+    margin-top: -50px;
+}
+
+.more-title-container {
+    position: relative;
+    background-color: transparent;
+    padding-top: 200px;
+    text-align: center; 
+    color: #FFFFFFB2; 
+    z-index: 6;
+    width: 100%;
+}
+
+.more-questions-title {
+    font-family: PPNeueMachina-Regular;
+    font-size: 7em;
+    margin: 0; 
+    color: #FFFFFF; 
+}
+
+.contact {
+    font-family: NeueMontreal-Regular;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 400px;
+    letter-spacing: 8px;
+    color: #FFFFFFB2; 
+}
+
+.social-icons {
+    position: relative;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-self: center; 
+    gap: 20px; 
+    margin-top: 0px;
+    z-index: 10;
+}
+
+.social-icon {
+    scale: 0.5;
+    position: absolute;
+}
+.fb {
+    top: -300px;  
+    left: 0px; 
+}
+
+.in {
+    top: -220px; 
+    left: 170px; 
+}
+
+.insta {
+    top: -300px;   
+    left: 340px;
+}
+
+.yt {
+    top: -220px;
+    left: 510px;
+}
+
+@media (max-width: 767px) {
+    .more-questions-title {
+        font-size: 4em;
+    }
+
+    .contact {
+        margin-top: 100px;
+        font-size: 0.8em;
+    }
+
+    .social-icon {
+        scale: 0.4;
+        position: absolute;
+    }
+    .fb {
+        top: -300px;  
+        left: -50%; 
+    }
+    
+    .in {
+        top: -220px; 
+        left: -15%; 
+    }
+    
+    .insta {
+        top: -320px;   
+        left: 15%;
+    }
+    
+    .yt {
+        top: -220px;
+        left: 45%;
+    }
+
+    .copyright {
+        font-size: 1em;
+    }
+    .txt-container {
+        margin-top: 10px;
+        display: block;
+        padding: 20px;
+        text-align: center;
+        font-size: 0.9em;
+    }
+}
