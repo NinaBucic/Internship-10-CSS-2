@@ -56,6 +56,12 @@
     width: 120%;
 }
 
+.dragan-role {
+    color: #FFFFFFB2;
+    z-index: 5;
+    opacity: 1;
+}
+
 #testimonial3-divider {
     position: absolute;
     display: flex;

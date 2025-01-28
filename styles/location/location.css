@@ -87,15 +87,21 @@
         position: absolute;
     } 
 
-    .location-back-mobile {
-        margin-top: -200%; 
-        width: 100%;
+    .object-house .location-back-mobile {
+        margin-top: -40%; 
+        height: 70%;
+        width: 110%;
+        scale: 1.7;
     }
 
     .stamp {
-        margin-top: -50px;
+        margin-top: 20px;
         margin-bottom: 400px;
-        scale: 1.4;
+        scale: 1.6;
+    }
+
+    .stamp .stamp-shape2 {
+        top: -2px;
     }
 
     .location-title-container {

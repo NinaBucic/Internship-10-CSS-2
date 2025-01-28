@@ -1,5 +1,6 @@
 .gallery-and-testimonials{
     width: 100%;
+    margin-top: -100px;
     height: auto;
     background-color: black;
     display: flex;
@@ -76,23 +77,14 @@
         flex-direction: column;
     }
 
-    .testimonial-container .testimonial1,
-    .testimonial-container .test {
+    .testimonial-container .testimonial {
         display: flex;
         flex-direction: column;
-        height: auto;
-        padding: 0;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        padding: 10px;
     }
-
-    .testimonial-container .test{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        padding: 0;
-        width: 100%;
-        order: 1;
-    }
-
 
     .testimonial-container .testimonial-comment-container {
         max-width: 100%; 
@@ -115,24 +107,21 @@
 
     .testimonial-author-container .author {
         font-size: 1.4rem; 
-        margin-top: 50px;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
 
     #role {
-        top: 0;
+        margin-top: 10px;
     }
 
-    .test .test-author {
+    .testimonial-container .test .test-author {
         max-width: 100%; 
         align-items: center; 
         text-align: left; 
         left: -88%;
-        order: 3;
-    }
-
-    .test-author .author {
-        font-size: 1.4rem; 
-        margin-top: 20px;
+        top: 10%;
+        order: 2;
     }
 
     .test .test-comment {
@@ -147,6 +136,11 @@
     }
 
     .testimonial-author-container .apostrof {
+        top: 12%;
+        left: -20%; 
+    }
+
+    .test .test-author .test-apostrof {
         top: 12%;
         left: 20%; 
     }
