@@ -77,6 +77,7 @@
         flex-direction: column;
     }
 
+
     .testimonial-container .testimonial {
         display: flex;
         flex-direction: column;
@@ -113,15 +114,26 @@
 
     #role {
         margin-top: 10px;
+        margin-bottom: 50px;
     }
 
-    .testimonial-container .test .test-author {
+    .dragan {
+        top: -100px;
+    }
+
+    .test-author .author {
+        margin-left: 40px;
+    }
+
+    .test .test-author {
         max-width: 100%; 
         align-items: center; 
         text-align: left; 
-        left: -88%;
-        top: 10%;
+        left: 10%;
+        top: 85%;
+        margin-top: 10px;
         order: 2;
+        position: absolute;
     }
 
     .test .test-comment {
@@ -141,7 +153,7 @@
     }
 
     .test .test-author .test-apostrof {
-        top: 12%;
-        left: 20%; 
+        top: 15%;
+        left: -4%; 
     }
 }
