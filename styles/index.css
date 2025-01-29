@@ -46,11 +46,12 @@
     --black-color: #171615;
     --grey-color: #171615b2;
     --orange-color: #ff482f;
+    --beige-color: #F5EDE1;
 }
 
 body{
     position: relative;
-    background-color: #F5EDE1;
+    background-color: var(--beige-color);
     overflow-x: hidden;
 }
 
