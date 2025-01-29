@@ -171,7 +171,9 @@
     </div>
 
     <div class="events-main-img">
-      <div><div class="events-main-title"><h1>PREDAVANJA (16)</h1></div></div>
+      <div>
+        <div class="events-main-title"><h1>PREDAVANJA (16)</h1></div>
+      </div>
       <img
         src="./assets/images/events/events-main-photo.png"
         alt="Predavanja"
@@ -179,8 +181,52 @@
     </div>
 
     <div class="section-divider events-main-img-section-divider">
-      <img src="/assets/images/other/beige-divider.png" class="divider-image" />
+      <img src="/assets/images/other/beige-divider.png" class="divider-image divider-image-1" />
+      <img src="/assets/images/other/white-divider.png" class="divider-image divider-image-2" />
     </div>
+
+    <!--events schedule-->
+    <section class="schedule-section">
+      <div class="picker">
+        <div class="picker-date">
+          <input
+            type="radio"
+            id="picker-date__petak"
+            name="date-picker"
+            checked
+          />
+          <label for="picker-date__petak">PETAK, 25.05</label>
+
+          <input type="radio" id="picker-date__subota" name="date-picker" />
+          <label for="picker-date__subota">SUBOTA, 26.05</label>
+        </div>
+        <div class="picker-tag">
+          <input
+            type="radio"
+            id="picker-tag__sve"
+            name="tag-picker"
+            checked
+          />
+          <label for="picker-tag__sve">SVE</label>
+
+          <input type="radio" id="picker-tag__dev" name="tag-picker" />
+          <label for="picker-tag__dev">DEV</label>
+
+          <input type="radio" id="picker-tag__dizajn" name="tag-picker" />
+          <label for="picker-tag__dizajn">DIZAJN</label>
+
+          <input
+            type="radio"
+            id="picker-tag__marketing"
+            name="tag-picker"
+          />
+          <label for="picker-tag__marketing">MARKETING</label>
+
+          <input type="radio" id="picker-tag__tech" name="tag-picker" />
+          <label for="picker-tag__tech">TECH</label>
+        </div>
+      </div>
+    </section>
 
     <!--location-->
     <div class="section-divider">

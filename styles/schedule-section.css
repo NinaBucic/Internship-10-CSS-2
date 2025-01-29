@@ -1,0 +1,53 @@
+.schedule-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 32px;
+    padding-bottom: 65px;
+    color: var(--black-color);
+    font-family: NeueMontreal-Medium, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+
+.picker {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picker-date,
+.picker-tag {
+    display: flex;
+    gap: 8px;
+}
+
+.picker-date input,
+.picker-tag input{
+    display: none;
+}
+
+.picker label {
+    padding: 16px 24px;
+    cursor: pointer;
+}
+
+.picker-date input:checked + label,
+.picker-tag input:checked + label{
+    color: var(--orange-color);
+    border-bottom: 3px solid var(--orange-color);
+}
+
+@media screen and (max-width:1023px){
+    .schedule-section{
+        background-color: white;
+        top: -50px;
+    }
+    .picker-tag {
+        display: none;
+    }
+
+    .picker {
+        justify-content: center;
+    }
+}
