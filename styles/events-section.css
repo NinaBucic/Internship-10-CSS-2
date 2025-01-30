@@ -1,0 +1,127 @@
+.events-gallery {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+  padding: 32px;
+  margin: 50px 0;
+  overflow: hidden;
+}
+
+.events-gallery img {
+  width: 320px;
+  height: 400px;
+}
+
+.events-main-img { 
+  position: relative;
+  width: 100%;
+}
+
+.events-main-img img {
+  width: 100%;
+  height: auto;
+}
+
+.events-main-img > div {
+  position: absolute;
+  padding-top: 35%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.events-main-title {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.events-main-title h1 {
+  position: sticky;
+  top: 35%;
+  text-align: center;
+  color: white;
+  font-family: PPNeueMachina-Regular, sans-serif;
+  font-size: 120px;
+  line-height: 144px;
+  letter-spacing: -5px;
+}
+
+.events-main-img-section-divider {
+  top: -50px;
+}
+
+.divider-image-2 {
+  display: none;
+}
+
+@media screen and (max-width:1023px) {
+  .divider-image-2 {
+    display: block;
+  }
+
+  .divider-image-1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .events-gallery {
+    gap: 16px;
+    padding: 16px;
+    flex-wrap: wrap;
+  }
+
+  .events-gallery img {
+    width: 163px;
+    height: 205px;
+  }
+
+  .events-main-title h1 {
+    font-size: 80px;
+    line-height: 112px;
+    letter-spacing: -4px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .events-main-title h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 570px){
+  .events-main-title h1 {
+    font-size: 40px;
+    line-height: 80px;
+    letter-spacing: -3px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .events-gallery {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .events-gallery img {
+    width: 100px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .events-gallery {
+      gap: 30px;
+    }
+}
+
+@media screen and (max-width: 375px){
+  .events-main-title h1 {
+    font-size: 30px;
+    line-height: 60px;
+    letter-spacing: -2px;
+  }
+}

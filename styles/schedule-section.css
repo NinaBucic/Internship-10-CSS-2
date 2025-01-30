@@ -1,0 +1,244 @@
+.schedule-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 32px;
+    padding-bottom: 65px;
+    color: var(--black-color);
+    font-family: NeueMontreal-Medium, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+
+.picker {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picker-date,
+.picker-tag {
+    display: flex;
+    gap: 8px;
+}
+
+.picker-date input,
+.picker-tag input{
+    display: none;
+}
+
+.picker label {
+    padding: 16px 24px;
+    cursor: pointer;
+}
+
+.picker-date input:checked + label,
+.picker-tag input:checked + label{
+    color: var(--orange-color);
+    border-bottom: 3px solid var(--orange-color);
+}
+
+.schedule-list {
+    margin-top: 100px;
+}
+
+.orange-ellipse {
+    height: 30px;
+    width: 60px;
+    background-color: var(--orange-color);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 6px;
+    color: white;
+}
+
+.schedule-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 35px 78px;
+    text-align: right;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.schedule-item .first-part {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:153px;
+}
+
+.schedule-item__time {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 130px;
+}
+
+.schedule-item__time > :last-child {
+    color: var(--grey-color);
+    text-align: right;
+}
+
+.schedule-item__time span {
+    display: none;
+}
+
+.schedule-item__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+}
+
+.schedule-item__info-title {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.schedule-item__info-title h3 {
+    font-family: PPNeueMachina-UltraBold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+}
+
+.schedule-item__info-person {
+    color: var(--grey-color);
+}
+
+.schedule-dotted-divider {
+    width: 100%;
+    height: 5px;
+    border-bottom: 5px dotted var(--dotted-divider);
+}
+
+.plus-icon {
+    cursor: pointer;
+}
+
+.speaker-photo {
+    position: absolute;
+    z-index: 2;
+    top: -10px;
+    right: 250px;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.schedule-item:hover .speaker-photo{
+    opacity: 1;
+}
+
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .schedule-item {
+        padding: 35px 40px;
+    }
+
+    .schedule-item .first-part {
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .speaker-photo {
+        right: 100px;
+    }
+}
+
+@media screen and (max-width:1023px){
+    .schedule-section{
+        background-color: white;
+        top: -50px;
+    }
+    .picker-tag {
+        display: none;
+    }
+
+    .picker {
+        justify-content: center;
+    }
+
+    .plus-icon {
+        display: none;
+    }
+
+    .schedule-section {
+        padding: 16px;
+    }
+
+    .schedule-list {
+        margin-top: 32px;
+    }
+
+    .schedule-item {
+        padding: 32px 0;
+        justify-content: center;
+    }
+
+    .schedule-item .first-part{
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .schedule-item__time {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .schedule-item__time span {
+        display: inline-block;
+        margin-right: 8px;
+    }
+
+    .schedule-item__info {
+        gap: 10px;
+        width: 100%;
+    }
+
+    .schedule-item__info-person {
+        padding-left: 56px;
+    }
+
+    .speaker-photo {
+        display: none;
+    }
+    
+    .schedule-item:hover .speaker-photo{
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .orange-ellipse {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .schedule-item__info-title h3 {
+        font-family: PPNeueMachina-Regular;
+        font-size: 16px;
+    }
+
+    .schedule-item__info-title {
+        align-items: flex-start;
+    }
+}

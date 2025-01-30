@@ -1,5 +1,7 @@
 @import url('header.css');
 @import url('duck-section.css');
+@import url('events-section.css');
+@import url('schedule-section.css');
 
 /*location*/
 @import url('location/location.css');
@@ -59,11 +61,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --black-color: #171615;
+    --grey-color: #171615b2;
+    --orange-color: #ff482f;
+    --beige-color: #F5EDE1;
+    --dotted-divider: #1716154D;
 }
 
 body{
     position: relative;
-    background-color: #F5EDE1;
+    background-color: var(--beige-color);
     overflow-x: hidden;
 }
 
