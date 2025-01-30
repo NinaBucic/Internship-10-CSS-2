@@ -7,6 +7,24 @@
 @import url('location/location-text.css');
 @import url('location/house.css');
 
+/*sponsors*/
+@import url('/styles/sponsors/title&logos.css');
+@import url('/styles/sponsors/golden-sponsors.css');
+@import url('/styles/sponsors/other-sponsors.css');
+@import url('/styles/sponsors/responsive-design.css');
+
+/*register*/
+@import url('/styles/register/register.css');
+
+/*gallery and testomials*/
+@import url('/styles/gallery-and-testimonials/gallery.css');
+@import url('/styles/gallery-and-testimonials/testimonials.css');
+
+/*faq, invite, and more*/
+@import url(/styles/faq.css);
+@import url(/styles/invite.css);
+@import url(/styles/more-questions.css);
+
 @font-face {
     font-family: PPNeueMachina-Light;
     src: url("../assets/fonts/NeueMachina/PPNeueMachina-Light.otf") format("truetype");
@@ -70,9 +88,6 @@ body{
     height: 100%;
     object-fit: cover;
     background-color: transparent;
-}
-
-.divider-image {
     z-index: 1;
     opacity: 1;
     transform-origin: center;
