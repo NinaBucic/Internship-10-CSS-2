@@ -37,7 +37,8 @@ header {
   text-align: center;
 }
 
-.top-bar button {
+.top-bar button,
+.mobile-menu-register-button {
   cursor: pointer;
   border: none;
   outline: none;
@@ -49,6 +50,12 @@ header {
   line-height: 16px;
   letter-spacing: 1px;
   color: black;
+}
+
+.top-bar button:hover,
+.mobile-menu-register-button:hover {
+  background-color: black;
+  color: white;
 }
 
 .hero {
@@ -100,6 +107,7 @@ header {
 }
 
 .role-image h1 {
+  font-family: PPNeueMachina-Regular;
   z-index: 2;
   font-size: 120px;
   line-height: 144px;
@@ -121,11 +129,59 @@ header {
   height: 142.75px;
 }
 
+.mobile-menu-register-button {
+  position: absolute;
+  width: calc(100% - 2 * 16px);
+  text-align: center;
+  bottom: 110px;
+  left: 16px;
+  padding: 20px 48px;
+  line-height: 14px;
+  display: none;
+}
+
+.mobile-menu-bottom-text {
+  width: calc(100% - 2 * 16px);
+  position: absolute;
+  text-align: center;
+  bottom: 40px;
+  left: 16px;
+  display: none;
+}
+
 @keyframes scroll-loop {
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(-50%);
+  }
+}
+
+@media screen and (max-width:768px) {
+  header {
+    margin: 0;
+    margin-bottom: 32px;
+  }
+
+  .mobile-menu-register-button,
+  .mobile-menu-bottom-text {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .role-image h1 {
+    font-size: 80px;
+    line-height: 80px;
+    margin-bottom: 100px;
+  }
+
+  .days-sticker {
+    width: 100.27px;
+    height: 119.32px;
+    margin-bottom: 100px;
   }
 }
