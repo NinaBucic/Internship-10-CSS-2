@@ -31,16 +31,15 @@
 }
 
 #testimonial1-divider, #testimonial2-divider, #testimonial3-divider {
-    width: 106.6vw;
+    left: 0;
+    width: 100vw;
     position: absolute;
     display: flex;
-    top: 50%;
 }
 
 #testimonial1-divider {
     z-index: 0;
     top: -70px;
-    left: -100px;
 }
 
 .testimonial2 {
@@ -54,13 +53,11 @@
 #testimonial2-divider {
     z-index: 2;
     top: -50px;
-    left: -100px;
 }
 
 #testimonial3-divider {
     z-index: 8;
     top: -60px;
-    left: -100px;
     transform: rotate(1deg);
 }
 

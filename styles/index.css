@@ -11,6 +11,7 @@
 @import url('/styles/sponsors/title&logos.css');
 @import url('/styles/sponsors/golden-sponsors.css');
 @import url('/styles/sponsors/other-sponsors.css');
+@import url('/styles/sponsors/responsive-design.css');
 
 /*register*/
 @import url('/styles/register/register.css');
