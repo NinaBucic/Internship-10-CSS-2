@@ -18,6 +18,33 @@
           ZA NOVU GENERACIJU
         </p>
         <button>REGISTRIRAJ SE</button>
+        <div class="hamburger">
+          <input type="checkbox" id="toggle-mobile-menu"/>
+          <label for="toggle-mobile-menu" class="hamburger-icon">
+            <img src="./assets/images/header/hamburger.png" alt="Hamburger icon" />
+          </label>
+          <div class="mobile-menu">
+            <div class="mobile-menu__header">
+              <p>IZBORNIK</p>
+              <label for="toggle-mobile-menu" class="x-icon">
+                <img src="./assets/images/header/close.svg" alt="X icon" />
+              </label>
+            </div>
+            <nav class="mobile-menu__nav">
+              <a href="#KONFERENCIJA">KONFERENCIJA</a>
+              <a href="#SPEAKERI">SPEAKERI</a>
+              <a href="#RASPORED">RASPORED</a>
+              <a href="#SPONZORI">SPONZORI</a>
+              <a href="#KONTAKT">KONTAKT</a>
+            </nav>
+            <div id="mobile-menu-dotted-divider" class="schedule-dotted-divider"></div>
+            <button class="mobile-menu-register-button">REGISTRIRAJ SE</button>
+            <p class="mobile-menu-bottom-text">
+              BESPLATNA KONFERENCIJA <br>
+              ZA NOVU GENERACIJU
+            </p>
+          </div>
+        </div>
       </div>
 
       <div class="hero">
@@ -120,17 +147,22 @@
           />
         </div>
         <nav class="menu">
-          <a href="">KONFERENCIJA</a>
-          <a href="">SPEAKERI</a>
-          <a href="">RASPORED</a>
-          <a href="">SPONZORI</a>
-          <a href="">KONTAKT</a>
+          <a href="#KONFERENCIJA">KONFERENCIJA</a>
+          <a href="#SPEAKERI">SPEAKERI</a>
+          <a href="#RASPORED">RASPORED</a>
+          <a href="#SPONZORI">SPONZORI</a>
+          <a href="#KONTAKT">KONTAKT</a>
         </nav>
+        <button class="mobile-menu-register-button">REGISTRIRAJ SE</button>
+        <p class="mobile-menu-bottom-text">
+          BESPLATNA KONFERENCIJA <br>
+          ZA NOVU GENERACIJU
+        </p>
       </div>
     </header>
 
     <!--duck-->
-    <section class="duck-section">
+    <section class="duck-section" id="KONFERENCIJA">
       <div class="duck-column">
         <div class="areas">DEV, DESIGN &TECH KONFa</div>
         <div class="duck-area">
@@ -186,7 +218,7 @@
     </div>
 
     <!--events schedule-->
-    <section class="schedule-section">
+    <section class="schedule-section" id="RASPORED">
       <div class="picker">
         <div class="picker-date">
           <input
@@ -407,6 +439,63 @@
       </div>
     </section>
 
+    <div class="section-divider" id="speakers-section-divider">
+      <img src="/assets/images/other/orange-divider.png" class="divider-image" />
+    </div>
+
+    <!--speakers-->
+    <section class="speakers-section" id="SPEAKERI">
+      <div class="speakers-header">
+        <p>DIGITALNI INOVATORI POD ISTIM KROVOM</p>
+        <h2>SPEAKERI (23)</h2>
+      </div>
+      <div class="speakers-content">
+        <div class="speaker">
+          <img src="./assets/images/speakers/Film frame + image.png" alt="Speaker">
+          <div class="speaker-info">
+            <h3>DAVOR BRUKETA</h3>
+            <p>CTO @GETBYBUS</p>
+          </div>
+        </div>
+        <div class="speaker">
+          <img src="./assets/images/speakers/Film frame + image (1).png" alt="Speaker1">
+          <div class="speaker-info">
+            <h3>ANTONIO VIDAKOVIĆ</h3>
+            <p>DESIGN LEAD @LOCASTIC</p>
+          </div>
+        </div>
+        <div class="speaker">
+          <img src="./assets/images/speakers/Film frame + image (2).png" alt="Speaker2">
+          <div class="speaker-info">
+            <h3>MARIN RADMILOVIĆ</h3>
+            <p>SENIOR SOFTWARE DEVELOPER @BLANK</p>
+          </div>
+        </div>
+        <div class="speaker">
+          <img src="./assets/images/speakers/Film frame + image (3).png" alt="Speaker3">
+          <div class="speaker-info">
+            <h3>YE</h3>
+            <p>SENIOR SOFTWARE DEVELOPER @BLANK</p>
+          </div>
+        </div>
+        <div class="speaker">
+          <img src="./assets/images/speakers/Film frame + image (4).png" alt="Speaker4">
+          <div class="speaker-info">
+            <h3>MATIJA LUKETIN</h3>
+            <p>CEO @BLANK</p>
+          </div>
+        </div>
+        <div class="speaker">
+          <img src="./assets/images/speakers/Film frame + image (5).png" alt="Speaker5">
+          <div class="speaker-info">
+          </div>
+        </div>
+      </div>
+      <div class="all-speakers-button">
+        [ Pogledaj sve predavače ]
+      </div>
+    </section>
+
     <!--location-->
     <div class="section-divider">
       <img src="/assets/images/other/green-divider.png" class="divider-image" />
@@ -477,7 +566,7 @@
     
 
     <!--motivation-->
-    <div class="motivation-section">
+    <div class="motivation-section" id="SPONZORI">
       <div class="section-divider">
           <img src="/assets/images/other/beige-divider.png" class="divider-image">
       </div>
@@ -847,7 +936,7 @@
       <img src="/assets/images/other/black-divider.png" class="divider-image">
     </div>
 
-    <div class="more-questions-section">
+    <div class="more-questions-section" id="KONTAKT">
         <img src="assets/images/other/noise.png" class="noise" id="more-noise"/>
         <div class="more-title-container">
           <h1 class="more-questions-title">IMAŠ JOŠ PITANJA?</h1>

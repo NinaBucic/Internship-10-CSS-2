@@ -1,0 +1,251 @@
+#speakers-section-divider {
+  margin-top: -65px;
+}
+
+.speakers-section {
+  margin-bottom: -70px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #e75b3f;
+  padding: 32px;
+  padding-top: 200px;
+  padding-bottom: 0;
+
+  color: white;
+  font-family: NeueMontreal-Medium, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.speakers-section:before {
+  content: "";
+  background-image: url(../assets/images/other/grain.png);
+  opacity: 0.15;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.speakers-header {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.speakers-header h2 {
+  color: #eaeaea;
+  font-family: PPNeueMachina-Regular, sans-serif;
+  font-size: 120px;
+  line-height: 144px;
+  letter-spacing: -5.02px;
+}
+
+.speakers-header p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.speakers-content {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.speaker {
+  text-align: center;
+  cursor: pointer;
+}
+
+.speaker img {
+  max-width: 300px;
+  max-height: 400px;
+}
+
+.speaker:not(:last-child) {
+  margin-right: 30px;
+}
+
+.speaker:nth-child(2) {
+  margin-top: 650px;
+}
+
+.speaker:nth-child(3) {
+  margin-top: 110px;
+}
+
+.speaker:nth-child(4) {
+  margin-top: 780px;
+}
+
+.speaker:nth-child(5) {
+  margin-right: 100px;
+}
+
+.speaker {
+  transform: translateY(20px);
+  animation: fadeInUp 2s ease forwards;
+}
+
+.speaker:nth-child(6) {
+  margin-top: 200px;
+  margin-bottom: 0px;
+  margin-right: 200px;
+  opacity: 0.2;
+  transform: translateY(20px);
+  animation: fadeInUpSpeaker6 2s ease forwards;
+}
+
+@keyframes fadeInUpSpeaker6 {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 0.2;
+    transform: translateY(0);
+  }
+}
+
+.speaker-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.speaker-info h3 {
+  font-family: PPNeueMachina-Regular, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+}
+
+.all-speakers-button {
+    position: absolute;
+    width: 244px;
+    height: 16px;
+    bottom: 20%;
+    left: 70%;
+    padding: 8px 24px 8px 24px;
+    color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .speakers-section {
+    padding: 16px;
+  }
+
+  .speakers-header h2 {
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: -3px;
+  }
+
+  .speaker-info h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .speakers-header p {
+    margin-bottom: 0px;
+  }
+
+  .speakers-header {
+    margin-bottom: 40px;
+  }
+
+  .speaker img {
+    max-width: 160px;
+    max-height: 200px;
+  }
+
+  .speaker:not(:last-child) {
+    margin-right: 16px;
+  }
+
+  .speaker:nth-child(2) {
+    margin-top: 300px;
+  }
+
+  .speaker:nth-child(3) {
+    margin-top: 50px;
+  }
+
+  .speaker:nth-child(4) {
+    margin-top: 200px;
+  }
+
+  .speaker:nth-child(5) {
+    margin-right: 50px;
+  }
+
+  .speaker:nth-child(6) {
+    margin-top: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .speaker {
+        max-width: 160px;
+    }
+
+    .all-speakers-button {
+        width: 249px;
+        height: 32px;
+        left: 50%;
+        padding: 8px 24px 8px 24px;
+    }
+}
+
+@media screen and (max-width: 450px) {  
+      .speaker:nth-child(2) {
+        margin-top: 20px;
+        margin-right: 0px;
+      }
+    
+      .speaker:nth-child(3) {
+        margin-top: 20px;
+        margin-right: 0px;
+      }
+    
+      .speaker:nth-child(4) {
+        margin-top: 20px;
+      }
+    
+      .speaker:nth-child(5) {
+        margin-right: 0px;
+        margin-top: 20px;
+      }
+    
+      .speaker:nth-child(6) {
+        margin-top: 20px;
+        margin-right: 100px;
+      }
+
+      .all-speakers-button {
+        left: 25%;
+        bottom: 150px;
+      }
+}
+
+@media screen and (max-width: 330px)
+{
+    .speakers-header h2 {
+        font-size: 24px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+
+    .speakers-header p {
+        font-size: 12px;
+        line-height: 30px;
+    }
+}
+
