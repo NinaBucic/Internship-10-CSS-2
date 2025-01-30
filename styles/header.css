@@ -43,11 +43,9 @@ header {
   display: none;
 }
 
-.hamburger-icon {
-  cursor: pointer;
-}
-
+.x-icon img
 .hamburger-icon img {
+  cursor: pointer;
   height: 40px;
   width: 40px;
 }
@@ -183,11 +181,6 @@ header {
     margin-bottom: 32px;
   }
 
-  .mobile-menu-register-button,
-  .mobile-menu-bottom-text {
-    display: block;
-  }
-
   .menu {
     display: none;
   }
@@ -217,6 +210,11 @@ header {
   
   .top-bar button {
     display: none;
+  }
+
+  .top-bar .mobile-menu-register-button,
+  .mobile-menu-bottom-text {
+    display: block;
   }
 
   .hamburger {
