@@ -31,13 +31,13 @@
 }
 
 #testimonial1-divider, #testimonial2-divider, #testimonial3-divider {
-    overflow: hidden;
-    width: 106.6%;
+    width: 106.6vw;
+    position: absolute;
+    display: flex;
+    top: 50%;
 }
 
 #testimonial1-divider {
-    position: absolute;
-    display: flex;
     z-index: 0;
     top: -70px;
     left: -100px;
@@ -52,17 +52,12 @@
 }
 
 #testimonial2-divider {
-    position: absolute;
-    display: flex;
     z-index: 2;
     top: -50px;
     left: -100px;
-    width: 106.6%;
 }
 
 #testimonial3-divider {
-    position: absolute;
-    display: flex;
     z-index: 8;
     top: -60px;
     left: -100px;

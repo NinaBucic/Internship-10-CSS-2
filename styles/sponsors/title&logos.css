@@ -23,7 +23,7 @@
 
 .motivation-title-container {
     width: 60%;
-    height: 144px;
+    z-index: 10;
 }
 
 .motivation-title {
@@ -38,6 +38,7 @@
 .sponsor-logo-section {
     position: relative;
     height: auto;
+    z-index: -2;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(12%, 1fr));
@@ -109,7 +110,7 @@
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .motivation-section {
         max-width: 100%;
         overflow: hidden;
@@ -180,7 +181,6 @@
     }
 
     .motivation-title-container {
-        margin-bottom: -100px;
     }
 
     .motivation-title {
@@ -203,13 +203,9 @@
 
     .sponsors-container .sponsor-grid {
         grid-template-columns: repeat(2, 1fr); 
-        gap: 2em;
+        gap: 6em;
         justify-items: center;
         align-items: center;
-    }
-
-    .sponsor-grid .sponsor-logo:not(:nth-child(4n+1))::before {
-        left: -2em;
     }
 
     #infobip-logo {
@@ -246,6 +242,10 @@
 }
 
 @media (max-width: 450px) {
+    .motivation-title {
+        font-size: 1em;
+    }
+
     .sponsor-logo-animation:nth-child(2) {
         transform: translate(120%, 250px);
         animation-delay: 7s;
@@ -273,9 +273,31 @@
     }
 
     .sponsors-container .sponsor-grid {
-        grid-template-columns: repeat(2, minmax(150px, 1fr)); 
-        gap: 2em; 
+        grid-template-columns: repeat(2, minmax(90px, 1fr)); 
+        gap: 2em;
+        justify-items: center;
+        align-items: center;
     }
+
+    .sponsors-container .sponsor-grid .sponsor-logo:not(:nth-child(4n+1))::before {
+        left: -1em;
+    }
+    .sponsors-container .sponsor-grid .sponsor-logo:not(:nth-last-child(n+3))::after {
+        top: 2em;
+    }
+
+    .sponsor-logo-animation {
+        scale: 0.3s;
+    }
+
+    .sponsor-medal .golden-sponsor-title {
+        font-size: 1em;
+    }
+
+    .sponsors-container .golden-sponsor-title {
+        font-size: 1em;
+    }
+
 }
 
 @media (max-width: 380px) {
@@ -288,7 +310,7 @@
     }
     
     .sponsor-logo-animation:nth-child(5) {
-        transform: translate(-20%, 600px);
+        transform: translate(-40%, 600px);
     }
     
     .sponsor-logo-animation:nth-child(7) {
@@ -296,7 +318,7 @@
     }
 
     .sponsor-logo-animation:nth-child(6) {
-        transform: translate(20%, 350px);
+        transform: translate(20%, 150px);
         animation-delay: 5s;
     }
 
@@ -323,4 +345,26 @@
         display: block;
     }
     
+    .sponsor-grid .sponsor-logo:nth-child(2n) {
+        border-right: none;
+    }
+
+    .sponsors-container .sponsor-grid {
+        grid-template-columns: repeat(2, minmax(100px, 1fr)); 
+        gap: 2em;
+        justify-items: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .sponsors-container .sponsor-grid .sponsor-logo:not(:nth-child(4n+1))::before {
+        left: -5.5em;
+    }
+    .sponsors-container .sponsor-grid .sponsor-logo:not(:nth-last-child(n+3))::after {
+        top: 0.5em;
+    }
+
+    .motivation-title {
+        font-size: 1em;
+    }
 }
