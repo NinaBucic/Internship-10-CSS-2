@@ -108,6 +108,16 @@
   margin-bottom: 8px;
 }
 
+.all-speakers-button {
+    position: absolute;
+    width: 244px;
+    height: 16px;
+    bottom: 20%;
+    left: 70%;
+    padding: 8px 24px 8px 24px;
+    color: black;
+}
+
 @media screen and (max-width: 1024px) {
   .speakers-section {
     padding: 16px;
@@ -167,6 +177,13 @@
     .speaker {
         max-width: 160px;
     }
+
+    .all-speakers-button {
+        width: 249px;
+        height: 32px;
+        left: 50%;
+        padding: 8px 24px 8px 24px;
+    }
 }
 
 @media screen and (max-width: 450px) {  
@@ -192,6 +209,11 @@
       .speaker:nth-child(6) {
         margin-top: 20px;
         margin-right: 100px;
+      }
+
+      .all-speakers-button {
+        left: 25%;
+        bottom: 150px;
       }
 }
 
