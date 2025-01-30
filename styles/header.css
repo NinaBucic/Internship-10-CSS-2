@@ -43,7 +43,7 @@ header {
   display: none;
 }
 
-.x-icon img
+.x-icon img,
 .hamburger-icon img {
   cursor: pointer;
   height: 40px;
