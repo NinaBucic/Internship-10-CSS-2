@@ -33,7 +33,26 @@ header {
   z-index: 100;
 }
 
-.top-bar :nth-child(2) {
+.hamburger {
+  display: none;
+  height: 40px;
+  width: 40px;
+}
+
+.hamburger input[type="checkbox"] {
+  display: none;
+}
+
+.hamburger-icon {
+  cursor: pointer;
+}
+
+.hamburger-icon img {
+  height: 40px;
+  width: 40px;
+}
+
+.top-bar p:is(:nth-child(2)) {
   text-align: center;
 }
 
@@ -183,5 +202,24 @@ header {
     width: 100.27px;
     height: 119.32px;
     margin-bottom: 100px;
+  }
+
+  .top-bar {
+    width: calc(100% - 2 * 16px);
+    top: 48px;
+    left: 16px;
+    padding: 0;
+  }
+  
+  .top-bar p:is(:nth-child(2)) {
+    display: none;
+  }
+  
+  .top-bar button {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
   }
 }
