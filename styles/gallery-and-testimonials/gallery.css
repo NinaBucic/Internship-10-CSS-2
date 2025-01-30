@@ -47,7 +47,7 @@
     top: 50px;
     right: 100px;
     z-index: 10;
-    scale: 1;
+    max-width: 10%;
 }
 
 .gallery-title {
@@ -75,6 +75,16 @@
 @media (max-width: 767px) {
     .testimonial-container {
         flex-direction: column;
+    }
+
+    .gallery-title {
+        font-size: 5em;
+        margin-top: -20px;
+    }
+
+    .throwback {
+        margin-top: -30px;
+        font-size: 1em;
     }
 
 
@@ -117,8 +127,12 @@
         margin-bottom: 50px;
     }
 
-    .dragan {
-        top: -100px;
+    .testimonial-container .dragan {
+        margin-top: -200px;
+    }
+
+    .dragan .test-comment {
+        margin-bottom: -20px;
     }
 
     .test-author .author {
@@ -156,4 +170,55 @@
         top: 15%;
         left: -4%; 
     }
+
+    .gallery-arrow {
+        right: 40px;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .gallery-title {
+        font-size: 3em;
+        margin-top: -200px;
+    }
+
+    .throwback {
+        margin-top: -230px;
+        font-size: 0.7em;
+    }
+
+    .testimonial-container .testimonial {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonial-container .testimonial1 {
+        margin-top: -200px;
+    }
+
+
+    .testimonial-container .testimonial-comment-container {
+        font-size: 1em;
+    }
+
+    .testimonial-author-container {
+        margin-left: 70px;
+    }
+
+    .testimonial-author-container .author{
+        font-size: 1em;
+    }
+    .test .test-author {
+        margin-left: 10px;
+    }
+
+    .test .test-comment {
+        font-size: 1em;
+    }
+
+    .gallery-arrow {
+        right: 20px;
+    }
+    
 }

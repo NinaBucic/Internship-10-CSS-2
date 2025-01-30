@@ -82,3 +82,24 @@
         font-size: 3.5em;
     }
 }
+
+@media (max-width: 380px) {
+    .register-title {
+        font-size: 2em;
+    }
+    
+    .login-in-apk {
+        top: 50px;
+        font-size: 0.5em;
+        letter-spacing: 5px;
+    }
+
+    .days-mockup-image {
+        scale: 1.2;
+        top: 160px;
+    }
+
+    .register-container {
+        padding-top: 100px;
+    }
+}

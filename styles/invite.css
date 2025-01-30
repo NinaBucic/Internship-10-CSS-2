@@ -38,8 +38,9 @@
 
 .logo {
     position: absolute;
-    top: -250px;
-    left: 70%;
+    top: -210px;
+    right: 20px;
+    width: 30vw;
     z-index: 10;
     scale: 0.5;
 }
@@ -49,7 +50,8 @@
     top: 60%;
     left: 2%;
     z-index: 2;
-    scale: 1s;
+    width: 30vw;
+    scale: 1;
 }
 
 .invite-title {
@@ -68,17 +70,15 @@
 
 @media (max-width: 767px) {
     .duck {
-        scale: 0.7;
-        left: -50px;
+        scale: 1.2;
+        top: 78%;
+        left: 0px;
     }
 
     .logo {
-        scale: 0.4;
+        scale: 0.8;
         position: absolute;
-        left: 50%;
-    }
-
-    .invite-section {
+        top: -130px;
     }
     
     .invite-image {
