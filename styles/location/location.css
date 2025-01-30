@@ -61,3 +61,98 @@
     opacity: 0.2;
 
 }
+
+
+.location-back-mobile{
+    display: none;
+}
+
+.location-mask-mobile {
+    display: none;
+    top: 30%;
+}
+
+.stamp-mobile {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .location-mask-desktop, .location-back-desktop {
+        display: none;
+    }
+
+    .location-mask-mobile, .location-back-mobile {
+        display: block;
+        width: 100%;
+        position: absolute;
+    } 
+
+    .object-house .location-back-mobile {
+        margin-top: -30%; 
+        height: 70%;
+        width: 110%;
+        scale: 1.7;
+    }
+
+    .stamp {
+        margin-top: 20px;
+        margin-bottom: 400px;
+        scale: 1.6;
+    }
+
+    .stamp .stamp-shape2 {
+        top: -2px;
+    }
+
+    .location-title-container {
+        margin-top: -150px;
+        margin-bottom: -100px;
+    }
+
+    .location-text-container {
+        flex-direction: column;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .center-location-paragraph{
+        display: none;
+    }
+    
+    .location-section .mobile-paragraph{
+        font-size: 4vw; 
+    }
+    
+    .fesb-group{
+        position: absolute;
+        top: 10%;
+        left: 80%;
+    }
+    
+    .location-section .gallery-room{
+        font-size: 1.2rem;
+        margin-top: -20px;
+        margin-bottom: 40px;
+    }
+
+    .visual-date-container {
+        margin-bottom: 60px;
+    }
+
+    .visual-date {
+        font-size: 7em;
+        letter-spacing: 10px;
+    }
+
+    .stamp-mobile {
+        display: block;
+        position: absolute;
+        left: 43%;
+    }
+
+    .dotted-line-stamp {
+        position: absolute;
+        border-top: 2px dotted #1716154D;
+        margin-top: -40px;
+    }
+}
